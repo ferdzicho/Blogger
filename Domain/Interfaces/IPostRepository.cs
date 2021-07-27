@@ -9,6 +9,7 @@ namespace Domain.Interfaces
 {
     public interface IPostRepository
     {
+        //git test
         IEnumerable<Post> GetAll();
         IEnumerable<Post> GetPostsByTitle(string title);
         Post GetById(int id);
